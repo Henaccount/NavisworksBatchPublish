@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyName>NavisworksBatchBoxPublish</AssemblyName>
+    <RootNamespace>NavisworksBatchBoxPublish</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <NavisworksInstallationPath Condition="'$(NavisworksInstallationPath)' == ''">$(ProgramFiles)\Autodesk\Navisworks Manage 2026</NavisworksInstallationPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Autodesk.Navisworks.Api">
+      <HintPath>$(NavisworksInstallationPath)\Autodesk.Navisworks.Api.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>
