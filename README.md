@@ -63,7 +63,7 @@ Recommended while testing:
 
 ```bat
 "C:\Program Files\Autodesk\Navisworks Manage 2026\roamer.exe" ^
-  -ShowGui ^
+  -NoGui ^
   -log "C:\Temp\roamer.log" ^
   -OpenFile "C:\Models\MyModel.nwd" ^
   -AddPluginAssembly "C:\Path\To\NavisworksBatchBoxPublish.dll" ^
