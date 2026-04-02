@@ -74,7 +74,7 @@ Recommended while testing:
   -Exit
 ```
 
-After it works, switch `-ShowGui` to `-NoGui`.
+
 
 ## Arguments
 
